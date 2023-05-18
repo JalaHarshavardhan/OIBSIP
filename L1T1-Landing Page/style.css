@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.navbar li{
+    list-style-type: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+
+}
+
+.topright{
+    width: 50%;
+    
+}
+
+.section1{
+    
+    max-height: 120vh;
+    background-image: url("bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e89700;
+    backface-visibility: 50%;
+
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+.section2{
+    padding: 10px;
+    background-image: url(section2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2 h1{
+    font-size: 2.6rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.logo{
+    font-size: 2rem;
+    color: white;
+}
+
+.cheersimg{
+    width: 207px;
+}
+
+.topright .whiskyimg{
+ width: 466px;   
+}
+
+.whiskyimg{
+    height: 550px;
+    width: 50px;
+    
+    padding: 35px;
+    /* height: 600px; */
+    /* width: 1000vh; */ 
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 3px solid wheat;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.box h2{
+    font-size: 2rem;
+}
+.highlited{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.fire{
+    width: 6vh;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background-image: url(footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-image: url(header.jpeg);
+    color:#fee254;
+
+}
+
+.about:hover:hover{
+    transform: translateY(-5px);
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+.services:hover{
+    transform: translateY(-5px);
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+.home:hover{
+    transform: translateY(-5px);
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+.contactus:hover{
+    transform: translateY(-5px);
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+
+.whiskyimg:hover{
+    transform: translateY(-5px);
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+}
+
+.box:hover{
+    transform: translateY(-5px);
+    background-color: #e89700;
+    border-radius: 8px;
+}
