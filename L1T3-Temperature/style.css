@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans&family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+.body{
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.converter {
+    color: snow;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.input-container {
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.conversion-buttons {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:hover{
+    transform: translateY(-5px);
+    background-color: #249c9a;
+}
+  
+button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+}
+  
+#kelvinbtn{
+    margin-top: 10px;
+}
+
+#input{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#output {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: lime;
+    font-size: larger;
+}
+  
